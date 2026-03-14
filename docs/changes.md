@@ -1,5 +1,25 @@
 # AiEditor ChangeLog
 
+## v1.4.5 20260314（商业版）:
+- refactor(pro/latex): optimize latex plugin implementation
+- feat(pro): add SVG to PNG conversion support in export optimization
+- feat(mdUtil): add support for data image links in markdown
+---
+- 优化：优化 latex 的 markdown 解析插件，支持解析更多格式的 latex 内容
+- 优化：添加对 SVG to PNG 的转换支持，方便 svg 内容导出为 PDF 和 word
+- 优化：添加对 markdown 数据图片链接的支持，支持 AI 返回的 image/svg+xml 格式
+
+
+## v1.4.3 20260301 （商业版）:
+- refactor(export): rename optimizeHtml function to optimizeExportHtml
+- feat(math): add LaTeX math rendering support
+- fix(chat): reset input field height after sending
+---
+- 优化：重命名 optimizeHtml 方法为 optimizeExportHtml
+- 优化：新增在 markdown 渲染时，支持 latex 渲染
+- 优化：chat 组件在发送完成时，重置输入框的高度
+
+
 ## v1.4.2 20260111（商业版）:
 - Fix: Corrected the comment tab name from "Comments" to "Annotations"
 - Fix: Fixed an issue where the AI ​​content area was not fully displayed when the user entered too much information during AI dialogue.
@@ -18,7 +38,6 @@
 - feat: 评论批注功能新增 commentDeleteDisable，用于开启或关闭删除批注功能
 - feat: 评论批注功能新增 commentUpdateDisable，用于开启或关闭更新批注功能
 - feat: 评论批注功能新增 commentReplyDisable，用于开启或关闭回复批注功能
-
 
 
 ## v1.4.2 20251103（开源版）:
